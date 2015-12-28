@@ -17,7 +17,6 @@ function logisticTest()
    % Hard coded for 1 hidden layer
    initialTheta1 = rand(hiddenLayerSizeNoBias,inputLayerSizeWithBias) * 2 - 1;
    initialTheta2 = rand(numBuckets,hiddenLayerSizeWithBias) * 2 - 1;
-  
 
    show_matrix("initialTheta1", initialTheta1);
    show_matrix("initialTheta2", initialTheta2);
@@ -39,6 +38,13 @@ function logisticTest()
       hiddenLayerSizeNoBias, inputLayerSizeWithBias)
    Theta2 = reshape(initialNNParams((1 + (hiddenLayerSizeNoBias * inputLayerSizeWithBias)):end),
       numBuckets, hiddenLayerSizeWithBias)
+
+
+   disp("Input features:")
+   X
+   disp("Output features:")
+   Y
+
 end
 
 
@@ -46,3 +52,4 @@ warning('off', 'Octave:possible-matlab-short-circuit-operator');
 logisticTest();
 
 
+disp("done")
