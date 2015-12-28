@@ -51,24 +51,40 @@ post-work society where the machines do the work, and the humans are<br>
 there to only specify and define what work is to be done and when to do<br>
 it. <br>
 
-<b>If you're young and niave, and want to use this to knock<br>
-over the stock market, is this code battle tested and up for the task?</b>
+<b>If you're young and niave, and want to use this to knock over the <br>
+stock market. Is this code battle tested and up for the task?</b><br>
+<br>
+Although it does work perfectly and absolutly will find the signal<br>
+in the feature data if it exists, you need more than that to spot<br>
+bottoms in the stock market.<br>
+<br>
 I took this basic example and scaled it up to work on 120 features<br>
-on hundreds of thousands of rows, trying to find sustainably exploitable<br>
-patterns in the securities markets in order to buy stocks low and sell<br>
-them dear.  But alas as you can see, one should not go into a boxing<br>
-ring with a prized fighter unless you are prepared to play poker with<br>
-the brightest minds on the planet making machine learning algorithms.<br>
+on hundreds of thousands of rows from stocks, trying to find <br>
+sustainably exploitable patterns in the securities markets in order<br>
+to buy stocks low and sell them dear.  But alas as you can see, one <br>
+should not go into a boxing ring with a prized fighter unless you <br>
+are prepared to play poker with the best of them, to outwit the<br>
+brightest minds on the planet making machine learning algorithms.<br>
+To win at the stock market, you not only have to be smarter than <br>
+people, your software has to be significantly better than your opponents<br>
+software.  When you gamble in the stock market, you are playing your AI <br>
+against AI built by companies with billions of dollars and all the<br>
+best years of the brightest minds out of top 10 CS schools.<br>
 <br>
-This AI software can be used to time the securities markets, however<br>
-you're about 20 years late to the party.  This is already used by<br>
-citadel and the hundreds of other hedge funds earning billions of dollars<br>
-per year off the backs of the proletariat class who keep money in banks<br>
-and the stock market.<br>
+
+
+<b>Can it be used to time the stock market?</b><br>
+Yes, and I did, and it works, up until the other AI sets you up<br>
+for a big fall. However, understand you're about 20 years late to <br>
+this party.  This is already used by citadel and the hundreds of <br>
+other hedge funds earning billions of dollars per year off the <br>
+backs of the proletariat class who keep money in banks and the <br>
+stock market.<br>
 <br>
-In short, no, fugettahbahdit.  And don't enter the boxing ring with<br>
+So, I suggest you fugettahbahdit.  And don't enter the boxing ring with<br>
 a prized fighter either, the other learning algorithms are going to<br>
-play you like a cheap fiddle and set you up for a fall.  
+play you like a cheap fiddle and then eat you for lunch, unless yours<br>
+is the biggest, baddest, and fastest thinker in the west.<br>
 <br>
 <br>
 
