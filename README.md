@@ -32,7 +32,7 @@ to calculate the final answer.<br>
 
 <br>
 <br>
-<b>Why is this interesting:</b>
+<b>Why is this interesting:</b><br>
 A similar version of this occurs in humans when babies first learn to <br>
 tell the difference between dogs and cats.  Using examples and <br>
 contrasting/comparing the differences between one and the other<br>
