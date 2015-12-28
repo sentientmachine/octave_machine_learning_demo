@@ -1,6 +1,6 @@
 # Octave machine learning demo
 
-==Program which demonstrates machine learning in Octave.==
+**Program which demonstrates machine learning in Octave.**
 
 You need to install Octave on your computer, here are<br>
 some clues:<br>
