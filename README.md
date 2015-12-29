@@ -36,7 +36,7 @@ to calculate the final answer.<br>
 A similar version of this occurs in humans when babies first learn to <br>
 tell the difference between dogs and cats.  Using examples and <br>
 contrasting/comparing the differences between one and the other<br>
-you can create a spiderweb of nodes and weights to classify <br>
+you can create a graph of nodes and weights to classify <br>
 what in the data is signal, and what is noise.  These concepts were<br>
 discovered in the 1950's, and used throughout the 1970's through today to <br>
 knock over the stock market, make self driving cars, have speech recognition<br>
@@ -47,9 +47,10 @@ and are being used to eliminate jobs where humans do repetitive motion<br>
 work requiring only a minimal version of intelligence.<br>
 <br>
 The next 50 years will be about using these computers to usher in a<br>
-post-work society where the machines do the work, and the humans are<br>
+post-work civilization where the machines do the work, and the humans are<br>
 there to only specify and define what work is to be done and when to do<br>
-it. <br>
+it.   Question is, do I get rich eliminating labor from the human race <br>
+or do I get minimum wage just like the non one percenters.<br><br>
 
 <b>If you're young and niave, and want to use this to knock over the <br>
 stock market. Is this code battle tested and up for the task?</b><br>
@@ -78,13 +79,9 @@ Yes, and I did, and it works, up until the other AI sets you up<br>
 for a big fall. However, understand you're about 20 years late to <br>
 this party.  This is already used by citadel and the hundreds of <br>
 other hedge funds earning billions of dollars per year off the <br>
-backs of the proletariat class who keep money in banks and the <br>
-stock market.<br>
+backs of the proletariat class who keep their claims on future<br>
+human labor on receipts of paper in banks and the stock market.<br>
 <br>
-So, I suggest you fugettahbahdit.  And don't enter the boxing ring with<br>
-a prized fighter either, the other learning algorithms are going to<br>
-play you like a cheap fiddle and then eat you for lunch, unless yours<br>
-is the biggest, baddest, and fastest thinker in the west.<br>
 <br>
 <br>
 
