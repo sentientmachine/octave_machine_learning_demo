@@ -40,10 +40,20 @@ function logisticTest()
       numBuckets, hiddenLayerSizeWithBias)
 
 
-   disp("Input features:")
+   disp("Input features:");
    X
-   disp("Output features:")
+   disp("Output features:");
    Y
+
+   disp("enter in new feature data followed by the enter key:\n");
+   testFeatureRow = []
+   for i = 1:columns(X)
+       ans = input(strcat("Enter feature: ", mat2str(i), "\n ")); 
+       testFeatureRow = [testFeatureRow, ans];
+   endfor
+
+   testFeatureRow
+   
 
 end
 
