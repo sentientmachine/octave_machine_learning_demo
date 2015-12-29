@@ -37,10 +37,6 @@ cost = 0;
 theta1Grad = zeros(size(theta1));
 theta2Grad = zeros(size(theta2));
 
-% ====================== YOUR CODE HERE ======================
-% Instructions: You should complete the code by working through the
-%               following parts.
-%
 % Part 1: Feedforward the neural network and return the cost in the
 %         variable cost. After implementing Part 1, you can verify that your
 %         cost function computation is correct by verifying the cost
@@ -68,10 +64,6 @@ theta2Grad = zeros(size(theta2));
 %               the regularization separately and then add them to theta1Grad
 %               and theta2Grad from Part 2.
 %
-
-% PS1('>> ');
-% cd 'C:\Users\charity\Desktop\ex4\ex4'
-% addpath 'C:\Users\charity\Desktop\ex4\ex4'
 
 % Part 1
 % X is 5 x 3

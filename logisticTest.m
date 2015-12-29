@@ -48,7 +48,7 @@ function logisticTest()
    disp("enter in new feature data followed by the enter key:\n");
    testFeatureRow = []
    for i = 1:columns(X)
-       ans = input(strcat("Enter feature: ", mat2str(i), "\n ")); 
+       ans = input(strcat("Enter feature number ", mat2str(i), " and press enter:\n ")); 
        testFeatureRow = [testFeatureRow, ans];
    endfor
 
