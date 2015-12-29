@@ -34,9 +34,9 @@ function logisticTest()
    
    cost
    % Obtain Theta1 and Theta2 back from nnParams
-   Theta1 = reshape(initialNNParams(1:hiddenLayerSizeNoBias * inputLayerSizeWithBias),
+   theta1 = reshape(initialNNParams(1:hiddenLayerSizeNoBias * inputLayerSizeWithBias),
       hiddenLayerSizeNoBias, inputLayerSizeWithBias)
-   Theta2 = reshape(initialNNParams((1 + (hiddenLayerSizeNoBias * inputLayerSizeWithBias)):end),
+   theta2 = reshape(initialNNParams((1 + (hiddenLayerSizeNoBias * inputLayerSizeWithBias)):end),
       numBuckets, hiddenLayerSizeWithBias)
 
 
@@ -54,6 +54,9 @@ function logisticTest()
 
    testFeatureRow
    
+   outputLayer = runNeuralNetwork(columns(X), rows(theta1), rows(theta2), X, theta1, theta2);
+
+   outputLayer
 
 end
 
