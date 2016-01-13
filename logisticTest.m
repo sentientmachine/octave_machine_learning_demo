@@ -71,7 +71,6 @@ function logisticTest()
    
    verify_theta1_theta2_against_testingdata(X, Y, printResults=1);
 
-
 end
 
 warning('off', 'Octave:possible-matlab-short-circuit-operator');
