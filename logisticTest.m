@@ -77,4 +77,5 @@ end
 warning('off', 'Octave:possible-matlab-short-circuit-operator');
 logisticTest();
 
+disp("program done")
 
