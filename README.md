@@ -1,5 +1,8 @@
 # Octave machine learning demo
 
+
+http://i.imgur.com/noZtJKf.jpg
+
 **Program which demonstrates machine learning in Octave.**
 
 You need to install Octave on your computer, here are<br>
