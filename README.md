@@ -1,7 +1,8 @@
 # Octave machine learning demo
 
+![Imgur](http://i.imgur.com/noZtJKf.jpg)
 
-[ http://i.imgur.com/noZtJKf.jpg ]
+
 
 **Program which demonstrates machine learning in Octave.**
 
