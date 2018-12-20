@@ -2,6 +2,8 @@
 
 ![Imgur](http://i.imgur.com/noZtJKf.jpg)
 
+![Whatever](terminal_icon.png)
+
 **Program which demonstrates machine learning in Octave.**
 
 You need to install Octave on your computer, here are<br>
