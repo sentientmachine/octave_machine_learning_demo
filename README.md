@@ -2,16 +2,12 @@
 
 ![Imgur](http://i.imgur.com/noZtJKf.jpg)
 
-![Whatever](terminal_icon.png)
+**A program which demonstrates machine learning in Octave.**
 
-**Program which demonstrates machine learning in Octave.**
-
-You need to install Octave on your computer, here are<br>
-some clues.  Worry about hammering later, good practice.<br>
-
-<a href="http://ericleschinski.com/c/gnu_octave_install_and_intro/">http://ericleschinski.com/c/gnu_octave_install_and_intro/</a>
+Install GNU Octave on your computer.
 
 <b>I'm using:</b>
+
 <pre>el@apollo:/workspace/octave_machine_learning_demo$ octave -v 
 GNU Octave, version 3.8.1
 </pre>
@@ -38,13 +34,15 @@ to calculate the final answer.<br>
 <br>
 <br>
 <b>Can it be used to time the stock market?</b><br>
+
 Yes, and I did, for a time, and it works, right up until the other AI's at <br>
 the citadel in Boston smells you sets you up for a fall. However, understand <br>
 that in this, you're about 20 years late to the party.  This stuff was hammered<br>
 out back in the 1960's and 1980's, already tuned to perfection by hundreds of <br>
 big money hedge funds earning billions of dollars per year off the backs of you <br>
 and I who keep their claims on future human labor on receipts of paper that a<br>
-private central bank inflate away after socializing the treasury.<br>
+private central bank inflate away after voting for themselves freebies funded <br>
+by the treasury.<br>
 <br>
 <br>
 
