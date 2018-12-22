@@ -34,15 +34,8 @@ to calculate the final answer.<br>
 <br>
 <br>
 <b>Can it be used to time the stock market?</b><br>
-
 Yes, and I did, for a time, and it works, right up until the other AI's at <br>
-the citadel in Boston smells you sets you up for a fall. However, understand <br>
-that in this, you're about 20 years late to the party.  This stuff was hammered<br>
-out back in the 1960's and 1980's, already tuned to perfection by hundreds of <br>
-big money hedge funds earning billions of dollars per year off the backs of you <br>
-and I who keep their claims on future human labor on receipts of paper that a<br>
-private central bank inflate away after voting for themselves freebies funded <br>
-by the treasury.<br>
+the citadel in Boston smells you and sets you up for a fall. 
 <br>
 <br>
 
