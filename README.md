@@ -12,6 +12,7 @@ Install GNU Octave on your computer.
 GNU Octave, version 3.8.1
 </pre>
 
+http://www.something.com/what_ever
 
 <b>Run it like this:<br></b>
 
@@ -29,6 +30,8 @@ to calculate the final answer.<br>
 <br>
 <b>Low level details on how/why it works:</b>
 <br>
+
+
 <a href="https://www.udacity.com/course/machine-learning--ud262">https://www.udacity.com/course/machine-learning--ud262</a>
 
 <br>
