@@ -1,5 +1,8 @@
 function logisticTest()
+    #get the training file, the observations
    fileNameX = "finance_training.txt";
+
+   #get the target file, (the answer key) aka supervisory signal
    fileNameY = "finance_target.txt";
 
    hiddenLayerUnitsMultiple = 20;   %Number of hidden units relative to number of features.

@@ -1,0 +1,179 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+A	fmincg.m	/^        A = 6*(f2-f3)\/z3+3*(d2+d3);                                 % cubic fit$/;"	v
+A	fmincg.m	/^    A = 6*(f2-f3)\/z3+3*(d2+d3);                      % make cubic extrapolation$/;"	v
+B	fmincg.m	/^        B = 3*(f3-f2)-z3*(d3+2*d2);$/;"	v
+B	fmincg.m	/^    B = 3*(f3-f2)-z3*(d3+2*d2);$/;"	v
+EXT	fmincg.m	/^EXT = 3.0;                    % extrapolate maximum 3 times the current bracket$/;"	v
+INT	fmincg.m	/^INT = 0.1;    % don't reevaluate within 0.1 of the limit of the current bracket$/;"	v
+M	fmincg.m	/^      M = M - 1; i = i + (length<0);                           % count epochs?!$/;"	v
+M	fmincg.m	/^    M = M - 1; i = i + (length<0);                             % count epochs?!$/;"	v
+MAX	fmincg.m	/^MAX = 20;                         % max 20 function evaluations per line search$/;"	v
+RATIO	fmincg.m	/^RATIO = 100;                                      % maximum allowed slope ratio$/;"	v
+RHO	fmincg.m	/^RHO = 0.01;                            % a bunch of constants for line searches$/;"	v
+SIG	fmincg.m	/^SIG = 0.5;       % RHO and SIG are the constants in the Wolfe-Powell conditions$/;"	v
+Theta1	logisticTest.m	/^   Theta1 = reshape(nnParams(1:hiddenLayerSizeNoBias * inputLayerSizeWithBias),$/;"	v
+Theta2	logisticTest.m	/^   Theta2 = reshape(nnParams((1 + (hiddenLayerSizeNoBias * inputLayerSizeWithBias)):end),$/;"	v
+X	fmincg.m	/^      X = X + z2*s;$/;"	v
+X	fmincg.m	/^    X = X0; f1 = f0; df1 = df0;  % restore point from before failed line search$/;"	v
+X	fmincg.m	/^  X = X + z1*s;                                             % begin line search$/;"	v
+X	loadTrainingData.m	/^    X = X((indexOfSplit+1):end,:);$/;"	v
+X	loadTrainingData.m	/^    X = X(indexes,:);$/;"	v
+X	loadTrainingData.m	/^  X = load(fileNameX);$/;"	v
+X	logisticTest.m	/^   X = load(fileNameX);$/;"	v
+X0	fmincg.m	/^  X0 = X; f0 = f1; df0 = df1;                   % make a copy of current values$/;"	v
+Y	loadTrainingData.m	/^    Y = Y((indexOfSplit+1):end,:);$/;"	v
+Y	loadTrainingData.m	/^    Y = Y(indexes,:);$/;"	v
+Y	loadTrainingData.m	/^  Y = load(fileNameY);$/;"	v
+Y	logisticTest.m	/^   Y = load(fileNameY);$/;"	v
+argstr	fmincg.m	/^  argstr = [argstr, ',P', int2str(i)];$/;"	v
+argstr	fmincg.m	/^argstr = ['feval(f, X'];                      % compose string used to call function$/;"	v
+argstr	fmincg.m	/^argstr = [argstr, ')'];$/;"	v
+averageError	verify_theta1_theta2_against_testingdata.m	/^  averageError = totalError \/ numTrainingExamples;$/;"	v
+cols	show_matrix.m	/^    cols = columns(matrix);$/;"	v
+cols	show_matrix2.m	/^    cols = columns(matrix);$/;"	v
+cost	costFunctionOneHiddenLayer.m	/^cost = 0;$/;"	v
+costFunction	logisticTest.m	/^   costFunction = @(p) costFunctionOneHiddenLayer(p, ...$/;"	v
+costFunctionOneHiddenLayer	costFunctionOneHiddenLayer.m	/^function [cost grad] = costFunctionOneHiddenLayer(nnParams, ...$/;"	f
+crossValidationSetX	loadTrainingData.m	/^    crossValidationSetX = 0;$/;"	v
+crossValidationSetX	loadTrainingData.m	/^    crossValidationSetX = X(1:indexOfSplit,:);$/;"	v
+crossValidationSetY	loadTrainingData.m	/^    crossValidationSetY = 0;$/;"	v
+crossValidationSetY	loadTrainingData.m	/^    crossValidationSetY = Y(1:indexOfSplit,:);$/;"	v
+currentTarget	costFunctionOneHiddenLayer.m	/^	currentTarget = zeros(1,numBuckets);$/;"	v
+d1	fmincg.m	/^    d1 = -s'*s;$/;"	v
+d1	fmincg.m	/^    d1 = d2;$/;"	v
+d1	fmincg.m	/^d1 = -s'*s;                                                 % this is the slope$/;"	v
+d2	fmincg.m	/^      d2 = -s'*s;    $/;"	v
+d2	fmincg.m	/^      d2 = df2'*s;$/;"	v
+d2	fmincg.m	/^    d2 = df1'*s;$/;"	v
+d2	fmincg.m	/^    d2 = df2'*s;$/;"	v
+d2	fmincg.m	/^  d2 = df2'*s;$/;"	v
+errorTrainingData	verify_theta1_theta2_against_testingdata.m	/^  errorTrainingData = abs(maxOutputIndex' - Y);$/;"	v
+f1	fmincg.m	/^    f1 = f2; fX = [fX' f1]';$/;"	v
+f3	fmincg.m	/^    f3 = f2; d3 = d2; z3 = -z2;                  % set point 3 equal to point 2$/;"	v
+f3	fmincg.m	/^  f3 = f1; d3 = d1; z3 = -z1;             % initialize point 3 equal to point 1$/;"	v
+fX	fmincg.m	/^fX = [];$/;"	v
+fileNameX	logisticTest.m	/^   fileNameX = "finance_training.txt";$/;"	v
+fileNameY	logisticTest.m	/^   fileNameY = "finance_target.txt";$/;"	v
+fmincg	fmincg.m	/^function [X, fX, i] = fmincg(f, X, options, P1, P2, P3, P4, P5)$/;"	f
+format	show_matrix.m	/^    format = strcat("%9.", num2str(precision), "f");$/;"	v
+format	show_matrix2.m	/^    format = strcat("%9.", num2str(precision), "f");$/;"	v
+g	sigmoidGradient.m	/^g = s .* (1-s);$/;"	v
+g	sigmoidGradient.m	/^g = zeros(size(z));$/;"	v
+grad	costFunctionOneHiddenLayer.m	/^grad = [theta1Grad(:) ; theta2Grad(:)];$/;"	v
+hiddenDerivativeNoBias	costFunctionOneHiddenLayer.m	/^hiddenDerivativeNoBias = hiddenDerivativeWithBias(2:end,:);$/;"	v
+hiddenDerivativeWithBias	costFunctionOneHiddenLayer.m	/^hiddenDerivativeWithBias = hiddenDerivativeWithBias .* sigmoidGradient([ones(1,numTrainingExampl/;"	v
+hiddenDerivativeWithBias	costFunctionOneHiddenLayer.m	/^hiddenDerivativeWithBias = theta2' * outputDerivative;$/;"	v
+hiddenLayerNoBias	costFunctionOneHiddenLayer.m	/^hiddenLayerNoBias = sigmoid(inputTimesTheta1);$/;"	v
+hiddenLayerNoBias	runNeuralNetwork.m	/^hiddenLayerNoBias = sigmoid(inputTimesTheta1);$/;"	v
+hiddenLayerSizeNoBias	logisticTest.m	/^   hiddenLayerSizeNoBias = inputLayerSizeNoBias * hiddenLayerUnitsMultiple;$/;"	v
+hiddenLayerSizeWithBias	costFunctionOneHiddenLayer.m	/^hiddenLayerSizeWithBias = hiddenLayerSizeNoBias + 1;$/;"	v
+hiddenLayerSizeWithBias	logisticTest.m	/^   hiddenLayerSizeWithBias = hiddenLayerSizeNoBias + 1;$/;"	v
+hiddenLayerSizeWithBias	runNeuralNetwork.m	/^hiddenLayerSizeWithBias = hiddenLayerSizeNoBias + 1;$/;"	v
+hiddenLayerUnitsMultiple	logisticTest.m	/^   hiddenLayerUnitsMultiple = 20;   %Number of hidden units relative to number of features.$/;"	v
+hiddenLayerWithBias	costFunctionOneHiddenLayer.m	/^hiddenLayerWithBias = [ones(1, numTrainingExamples); hiddenLayerNoBias];$/;"	v
+hiddenLayerWithBias	runNeuralNetwork.m	/^hiddenLayerWithBias = [ones(1, numTrainingExamples); hiddenLayerNoBias];$/;"	v
+hiddenTimesTheta2	costFunctionOneHiddenLayer.m	/^hiddenTimesTheta2 = theta2 * hiddenLayerWithBias;$/;"	v
+hiddenTimesTheta2	runNeuralNetwork.m	/^hiddenTimesTheta2 = theta2 * hiddenLayerWithBias;$/;"	v
+i	fmincg.m	/^  i = i + (length<0);                                          % count epochs?!$/;"	v
+i	fmincg.m	/^  i = i + (length>0);                                      % count iterations?!$/;"	v
+i	fmincg.m	/^i = 0;                                            % zero the run length counter$/;"	v
+i	fmincg.m	/^i = i + (length<0);                                            % count epochs?!$/;"	v
+indexOfSplit	loadTrainingData.m	/^    indexOfSplit = floor(numTrainingExamples * crossValidationPercent);$/;"	v
+initialNNParams	logisticTest.m	/^   initialNNParams = [initialTheta1(:) ; initialTheta2(:)];$/;"	v
+initialTheta1	logisticTest.m	/^   initialTheta1 = rand(hiddenLayerSizeNoBias,inputLayerSizeWithBias) * 2 - 1;$/;"	v
+initialTheta2	logisticTest.m	/^   initialTheta2 = rand(numBuckets,hiddenLayerSizeWithBias) * 2 - 1;$/;"	v
+inputLayerSizeNoBias	logisticTest.m	/^   inputLayerSizeNoBias = columns(X);$/;"	v
+inputLayerSizeWithBias	costFunctionOneHiddenLayer.m	/^inputLayerSizeWithBias = inputLayerSizeNoBias + 1;$/;"	v
+inputLayerSizeWithBias	logisticTest.m	/^   inputLayerSizeWithBias = inputLayerSizeNoBias + 1;$/;"	v
+inputLayerSizeWithBias	runNeuralNetwork.m	/^inputLayerSizeWithBias = inputLayerSizeNoBias + 1;$/;"	v
+inputLayerWithBias	costFunctionOneHiddenLayer.m	/^inputLayerWithBias = [ones(numTrainingExamples, 1) X];$/;"	v
+inputLayerWithBias	runNeuralNetwork.m	/^inputLayerWithBias = [ones(numTrainingExamples, 1) X];$/;"	v
+inputTimesTheta1	costFunctionOneHiddenLayer.m	/^inputTimesTheta1 = theta1 * inputLayerWithBias';$/;"	v
+inputTimesTheta1	runNeuralNetwork.m	/^inputTimesTheta1 = theta1 * inputLayerWithBias';$/;"	v
+lambda	logisticTest.m	/^   lambda = 0;$/;"	v
+length	fmincg.m	/^    length = 100;$/;"	v
+length	fmincg.m	/^    length = options.MaxIter;$/;"	v
+limit	fmincg.m	/^      limit = z1;                                         % tighten the bracket$/;"	v
+loadTrainingData	loadTrainingData.m	/^function [X Y crossValidationSetX crossValidationSetY] = loadTrainingData(fileNameX, fileNameY, /;"	f
+logisticTest	logisticTest.m	/^function logisticTest()$/;"	f
+ls_failed	fmincg.m	/^    ls_failed = 0;                              % this line search did not fail$/;"	v
+ls_failed	fmincg.m	/^    ls_failed = 1;                                    % this line search failed$/;"	v
+ls_failed	fmincg.m	/^ls_failed = 0;                             % no previous line search has failed$/;"	v
+maxOutputIndex	verify_theta1_theta2_against_testingdata.m	/^    maxOutputIndex = maxOutputIndex';$/;"	v
+my	verify_theta1_theta2_against_testingdata.m	/^    my = eval(mat2str(result, 'int16'));$/;"	v
+mystr	show_matrix.m	/^          mystr = strcat(mystr, ",");$/;"	v
+mystr	show_matrix.m	/^        mystr = strcat(mystr, " ;");$/;"	v
+mystr	show_matrix.m	/^        mystr = strcat(mystr, sprintf(format, matrix(i,j)));$/;"	v
+mystr	show_matrix.m	/^    mystr = "";$/;"	v
+mystr	show_matrix2.m	/^          mystr = strcat(mystr, ",");$/;"	v
+mystr	show_matrix2.m	/^        mystr = strcat(mystr, " ;\\n");$/;"	v
+mystr	show_matrix2.m	/^        mystr = strcat(mystr, sprintf(format, matrix(i,j)));$/;"	v
+mystr	show_matrix2.m	/^    mystr = "";$/;"	v
+nnParams	verify_theta1_theta2_against_testingdata.m	/^  nnParams = [Theta1(:) ; Theta2(:)];$/;"	v
+numBuckets	logisticTest.m	/^   numBuckets = 2;$/;"	v
+numTrainingExamples	costFunctionOneHiddenLayer.m	/^numTrainingExamples = rows(X);$/;"	v
+numTrainingExamples	loadTrainingData.m	/^  numTrainingExamples = rows(X);$/;"	v
+numTrainingExamples	logisticTest.m	/^   numTrainingExamples = rows(X);$/;"	v
+numTrainingExamples	runNeuralNetwork.m	/^numTrainingExamples = rows(X);$/;"	v
+numTrainingExamples	verify_theta1_theta2_against_testingdata.m	/^  numTrainingExamples = rows(X);$/;"	v
+numberRight	verify_theta1_theta2_against_testingdata.m	/^  numberRight = sum(maxOutputIndex' == Y)$/;"	v
+numberWrong	verify_theta1_theta2_against_testingdata.m	/^  numberWrong = numTrainingExamples - numberRight$/;"	v
+options	logisticTest.m	/^   options = optimset('MaxIter', maxIterations);$/;"	v
+outputDerivative	costFunctionOneHiddenLayer.m	/^outputDerivative = zeros(size(outputLayer));$/;"	v
+outputLayer	costFunctionOneHiddenLayer.m	/^outputLayer = sigmoid(hiddenTimesTheta2);$/;"	v
+outputLayer	runNeuralNetwork.m	/^outputLayer = sigmoid(hiddenTimesTheta2);$/;"	v
+outputLayer	verify_theta1_theta2_against_testingdata.m	/^    outputLayer = outputLayer';$/;"	v
+outputLayer	verify_theta1_theta2_against_testingdata.m	/^  outputLayer = runNeuralNetwork(nnParams, columns(X), rows(Theta1), rows(Theta2), X);$/;"	v
+percentRight	verify_theta1_theta2_against_testingdata.m	/^  percentRight = numberRight\/numTrainingExamples$/;"	v
+percentWrong	verify_theta1_theta2_against_testingdata.m	/^  percentWrong = numberWrong\/numTrainingExamples$/;"	v
+result	verify_theta1_theta2_against_testingdata.m	/^    result = [X Y maxOutputIndex];$/;"	v
+rows	show_matrix.m	/^    rows = rows(matrix);$/;"	v
+rows	show_matrix2.m	/^    rows = rows(matrix);$/;"	v
+runNeuralNetwork	runNeuralNetwork.m	/^function outputLayer = runNeuralNetwork(nnParams, ...$/;"	f
+s	fmincg.m	/^      s = -df1;                              % otherwise use steepest direction$/;"	v
+s	fmincg.m	/^    s = (df2'*df2-df1'*df2)\/(df1'*df1)*s - df2;      % Polack-Ribiere direction$/;"	v
+s	fmincg.m	/^    s = -df1;                                                    % try steepest$/;"	v
+s	fmincg.m	/^s = -df1;                                        % search direction is steepest$/;"	v
+s	sigmoidGradient.m	/^s = sigmoid(z);$/;"	v
+show_matrix	show_matrix.m	/^function show_matrix(name, matrix, precision)$/;"	f
+show_matrix2	show_matrix2.m	/^function show_matrix2(name, matrix, precision)$/;"	f
+sig	sigmoid.m	/^   sig = 1.0 .\/ (1.0 + exp(-x));$/;"	v
+sigmoid	sigmoid.m	/^function sig = sigmoid(x)$/;"	f
+sigmoidGradient	sigmoidGradient.m	/^function g = sigmoidGradient(z)$/;"	f
+success	fmincg.m	/^      success = 1; break;                                             % success$/;"	v
+success	fmincg.m	/^  success = 0; limit = -1;                     % initialize quanteties$/;"	v
+theta1	costFunctionOneHiddenLayer.m	/^theta1 = reshape(nnParams(1:hiddenLayerSizeNoBias * inputLayerSizeWithBias), ...$/;"	v
+theta1	runNeuralNetwork.m	/^theta1 = reshape(nnParams(1:hiddenLayerSizeNoBias * inputLayerSizeWithBias), ...$/;"	v
+theta1Grad	costFunctionOneHiddenLayer.m	/^theta1Grad = hiddenDerivativeNoBias * inputLayerWithBias;$/;"	v
+theta1Grad	costFunctionOneHiddenLayer.m	/^theta1Grad = zeros(size(theta1));$/;"	v
+theta1NoBias	costFunctionOneHiddenLayer.m	/^theta1NoBias = theta1(:,2:end);$/;"	v
+theta2	costFunctionOneHiddenLayer.m	/^theta2 = reshape(nnParams((1 + (hiddenLayerSizeNoBias * inputLayerSizeWithBias)):end), ...$/;"	v
+theta2	runNeuralNetwork.m	/^theta2 = reshape(nnParams((1 + (hiddenLayerSizeNoBias * inputLayerSizeWithBias)):end), ...$/;"	v
+theta2Grad	costFunctionOneHiddenLayer.m	/^theta2Grad = outputDerivative * hiddenLayerWithBias';$/;"	v
+theta2Grad	costFunctionOneHiddenLayer.m	/^theta2Grad = zeros(size(theta2));$/;"	v
+theta2NoBias	costFunctionOneHiddenLayer.m	/^theta2NoBias = theta2(:,2:end);$/;"	v
+tmp	fmincg.m	/^    tmp = df1; df1 = df2; df2 = tmp;                         % swap derivatives$/;"	v
+totalError	verify_theta1_theta2_against_testingdata.m	/^  totalError = sum(errorTrainingData);$/;"	v
+verify_theta1_theta2_against_testingdata	verify_theta1_theta2_against_testingdata.m	/^function verify_theta1_theta2_against_testingdata(X, Y, printResults)$/;"	f
+z1	fmincg.m	/^      z1 = z1 + z2;                                           % update the step$/;"	v
+z1	fmincg.m	/^    z1 = 1\/(1-d1);                     $/;"	v
+z1	fmincg.m	/^    z1 = z1 * min(RATIO, d1\/(d2-realmin));          % slope ratio but max RATIO$/;"	v
+z1	fmincg.m	/^    z1 = z1 + z2; X = X + z2*s;                      % update current estimates$/;"	v
+z1	fmincg.m	/^z1 = red\/(1-d1);                                  % initial step is red\/(|s|+1)$/;"	v
+z2	fmincg.m	/^        z2 = (limit-z1)\/2;                                   % otherwise bisect$/;"	v
+z2	fmincg.m	/^        z2 = (sqrt(B*B-A*d2*z3*z3)-B)\/A;       % numerical error possible - ok!$/;"	v
+z2	fmincg.m	/^        z2 = z1 * (EXT-1);                 % the extrapolate the maximum amount$/;"	v
+z2	fmincg.m	/^        z2 = z3 - (0.5*d3*z3*z3)\/(d3*z3+f2-f3);                 % quadratic fit$/;"	v
+z2	fmincg.m	/^        z2 = z3\/2;                  % if we had a numerical problem then bisect$/;"	v
+z2	fmincg.m	/^      z2 = (limit-z1)*(1.0-INT);$/;"	v
+z2	fmincg.m	/^      z2 = (limit-z1)\/2;                                               % bisect$/;"	v
+z2	fmincg.m	/^      z2 = -z3*INT;$/;"	v
+z2	fmincg.m	/^      z2 = max(min(z2, INT*z3),(1-INT)*z3);  % don't accept too close to limits$/;"	v
+z2	fmincg.m	/^      z2 = z1*(EXT-1.0);                           % set to extrapolation limit$/;"	v
+z2	fmincg.m	/^    z2 = -d2*z3*z3\/(B+sqrt(B*B-A*d2*z3*z3));        % num. error possible - ok!$/;"	v
+z3	fmincg.m	/^      z3 = z3-z2;                    % z3 is now relative to the location of z2$/;"	v
