@@ -2,7 +2,10 @@
 
 ![Imgur](http://i.imgur.com/noZtJKf.jpg)
 
-**A program which demonstrates machine learning in Octave.**
+**The program I used to make a bit of money in the stock market**
+
+It demonstrates machine learning using GNU Octave.**
+
 
 Install GNU Octave on your computer.
 
@@ -14,11 +17,17 @@ GNU Octave, version 3.8.1
 
 http://www.something.com/what_ever
 
-<b>Run it like this:<br></b>
+<b>Run it like this:</b>
 
-<pre>
-octave logisticTest.m
+<pre>octave logisticTest.m
 </pre>
+
+
+<b>Or like this:</b>
+
+<xmp>./buildrun.sh
+</xmp>
+
 
 <b>How it works, 10 thousand foot view:<br></b>
 
