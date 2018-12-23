@@ -49,11 +49,14 @@ https://www.udacity.com/course/machine-learning--ud262</a>
 
 ## Can this be used to time the stock market?
 
-Sort of yes, and I did for a time, and it does works, right up until the other AI's at 
-the Citadel in Boston and other large hedge funds smel you and sets you up for a fall. 
+Sort of yes, and I did for a time, and it does quote work unquote, 
+right up until the other AI's at the Citadel in Boston and other large 
+hedge funds detect you and sets you up the collective yous for a fall. 
 
-High stakes gambling against billionaires in tall office buildings on public securities is 
-generally not a good idea™.   
+High stakes gambling against billionaires with access to the best and 
+brightest minds this planet has on offer from the best universities 
+and most expensive equipment, in tall office buildings on public 
+securities is generally not a good idea™.   
 
 
 
