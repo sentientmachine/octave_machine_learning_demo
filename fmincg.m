@@ -90,7 +90,7 @@ while i < abs(length)                                      % while not finished
   d2 = df2'*s;
   f3 = f1; d3 = d1; z3 = -z1;             % initialize point 3 equal to point 1
   if length>0, M = MAX; else M = min(MAX, -length-i); end
-  success = 0; limit = -1;                     % initialize quanteties
+  success = 0; limit = -1;                              % initialize quanteties
   while 1
     while ((f2 > f1+z1*RHO*d1) | (d2 > -SIG*d1)) & (M > 0)
       limit = z1;                                         % tighten the bracket

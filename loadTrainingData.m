@@ -1,38 +1,38 @@
 function [X Y crossValidationSetX crossValidationSetY] = loadTrainingData(fileNameX, fileNameY, doCrossValidation, crossValidationPercent)
 
-  X = load(fileNameX);
-  Y = load(fileNameY);
+    X = load(fileNameX);
+    Y = load(fileNameY);
 
-  numTrainingExamples = rows(X);
-  if (doCrossValidation == 1)
-    
-    %show_matrix2("X before randomize", X);
-    %show_matrix2("Y before randomize", Y);
+    numTrainingExamples = rows(X);
+    if (doCrossValidation == 1)
 
-    [unnecessaryValue,indexes] = sort(rand(1,numTrainingExamples));
-    X = X(indexes,:);
-    Y = Y(indexes,:);
+        %show_matrix2("X before randomize", X);
+        %show_matrix2("Y before randomize", Y);
 
-    %show_matrix2("X after randomize", X);
-    %show_matrix2("X after randomize", Y);
-    
-    indexOfSplit = floor(numTrainingExamples * crossValidationPercent);
+        [unnecessaryValue,indexes] = sort(rand(1,numTrainingExamples));
+        X = X(indexes,:);
+        Y = Y(indexes,:);
 
-    crossValidationSetX = X(1:indexOfSplit,:);
-    crossValidationSetY = Y(1:indexOfSplit,:);
+        %show_matrix2("X after randomize", X);
+        %show_matrix2("X after randomize", Y);
 
-    X = X((indexOfSplit+1):end,:);
-    Y = Y((indexOfSplit+1):end,:);
+        indexOfSplit = floor(numTrainingExamples * crossValidationPercent);
 
-    %show_matrix2("X after split", X);
-    %show_matrix2("Y after split", Y);
+        crossValidationSetX = X(1:indexOfSplit,:);
+        crossValidationSetY = Y(1:indexOfSplit,:);
 
-    %show_matrix2("crossValidationSetX", crossValidationSetX);
-    %show_matrix2("crossValidationSetY", crossValidationSetY);
+        X = X((indexOfSplit+1):end,:);
+        Y = Y((indexOfSplit+1):end,:);
 
-  else
-    crossValidationSetX = 0;
-    crossValidationSetY = 0;
-  end
+        %show_matrix2("X after split", X);
+        %show_matrix2("Y after split", Y);
 
-end
+        %show_matrix2("crossValidationSetX", crossValidationSetX);
+        %show_matrix2("crossValidationSetY", crossValidationSetY);
+
+        else
+            crossValidationSetX = 0;
+            crossValidationSetY = 0;
+        end
+
+    end
